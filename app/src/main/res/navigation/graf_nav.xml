@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graf_nav"
+    app:startDestination="@id/shortOpisanieFragment2">
+    <fragment
+        android:id="@+id/shortOpisanieFragment2"
+        android:name="com.Abdul.ui.fragments.ShortDescriptionFragment"
+        android:label="ShortOpisanieFragment" >
+        <action
+            android:id="@+id/action_shortOpisanieFragment2_to_opisanieFragment2"
+            app:destination="@id/opisanieFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/opisanieFragment2"
+        android:name="com.Abdul.ui.fragments.DescriptionFragment"
+        android:label="OpisanieFragment" />
+</navigation>
